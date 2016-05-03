@@ -1,0 +1,45 @@
+  * {
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+a {
+    text-decoration: none
+}
+
+body,
+html {
+    height: 100%
+}
+
+html {
+    font-size: 100px
+}
+
+em,
+i {
+    font-style: normal
+}
+
+body {
+    font: "Microsoft YaHei";
+    margin: 0 auto;
+    background: $fff;
+    color: $fff;
+    font-size: rem(24);
+     margin-top: 40px;
+}
+li,
+ul {
+    list-style: none
+}
+
+img {
+    display: block;
+    width: 100%
+}
+
+.clear {
+    clear: both
+}
