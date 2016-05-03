@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+a {
+  text-decoration: none; }
+
+body,
+html {
+  height: 100%; }
+
+html {
+  font-size: 100px; }
+
+em,
+i {
+  font-style: normal; }
+
+body {
+  font: "Microsoft YaHei";
+  margin: 0 auto;
+  background: #fff;
+  color: #fff;
+  font-size: 0.12rem;
+  margin-top: 40px; }
+
+li,
+ul {
+  list-style: none; }
+
+img {
+  display: block;
+  width: 100%; }
+
+.clear {
+  clear: both; }
+
+a {
+  color: #fff; }
+
+.abg {
+  background: #3d2b64; }
+
+.dd1 {
+  line-height: 0.19rem; }
+
+.dd2 {
+  line-height: 0.38rem; }
+
+nav img {
+  margin: 0 auto;
+  width: 1.47rem;
+  padding: 0.05rem; }
+nav ul {
+  width: 100%;
+  height: 0.24rem;
+  background: no-repeat url(images/nav.png);
+  background-size: cover;
+  font-size: 0.12rem; }
+  nav ul li {
+    line-height: 0.25rem;
+    float: left;
+    padding-left: 0.25rem; }
+    nav ul li a {
+      height: 0.24rem; }
+
+article {
+  background: #63558a;
+  border-bottom: solid 0.185rem #ffe5ff;
+  overflow: hidden; }
+  article .zx {
+    margin: 0.2rem auto;
+    border: solid 1px #a6abc9;
+    background: #63558a;
+    width: 0.86rem;
+    height: 0.28rem; }
+    article .zx h4 {
+      background: url(images/ioc.png) no-repeat 0.775rem 0.19rem;
+      width: 0.825rem;
+      height: 0.24rem;
+      border: solid 1px #a6abc9;
+      margin: 0.0125rem; }
+      article .zx h4 a {
+        font-size: 0.13825rem;
+        line-height: 0.25325rem;
+        color: #b5e2f1;
+        display: block;
+        font-size: 0.125rem;
+        float: left; }
+      article .zx h4 em {
+        width: 0.18rem;
+        height: 0.18rem;
+        display: block;
+        margin-top: 0.01rem;
+        margin-right: 0.02rem;
+        border-radius: 0.18rem;
+        border: solid 2px #4a3872;
+        line-height: 0.18rem;
+        float: right;
+        color: #4a3872;
+        text-align: center; }
+  article dl {
+    width: 100%;
+    height: 0.38rem; }
+    article dl dd {
+      margin-left: 0.05rem;
+      border-bottom: dashed 1px #8f87a9;
+      width: 2.6rem;
+      float: left;
+      height: 0.38rem; }
+    article dl dt {
+      width: 0.34rem;
+      border: solid 1px #4d3977;
+      float: right;
+      margin-right: 0.08rem;
+      margin-top: 0.05rem; }
+      article dl dt a {
+        width: 0.25rem;
+        margin: 0.01rem auto;
+        display: block; }
+
+.cnzx {
+  height: 3.43rem; }
+  .cnzx .logo-zx {
+    margin: 0.2rem auto;
+    width: 2.025rem;
+    height: 0.46rem; }
+  .cnzx h2 {
+    margin-bottom: 0.045rem;
+    text-align: center; }
+    .cnzx h2 span {
+      margin-left: -0.015rem; }
+  .cnzx .lb {
+    position: relative;
+    height: 0.75rem;
+    width: 100%;
+    border-top: solid 1px #4d3977;
+    border-bottom: solid 1px #4d3977;
+    margin-bottom: 0.1rem; }
+
+.cnhs {
+  height: 3.45rem; }
+  .cnhs .logo-hs {
+    margin: 0.3rem auto;
+    width: 1.345rem;
+    height: 0.42rem; }
+  .cnhs ul {
+    height: 1.86rem; }
+    .cnhs ul li {
+      width: 1.43rem;
+      height: 1.825rem;
+      float: left;
+      margin-left: 0.085rem;
+      border-radius: 0.1rem;
+      border: solid 1px #8f87a9; }
+      .cnhs ul li img {
+        width: 1.385rem;
+        height: 1.075rem;
+        margin: 0.08rem 0 0.045rem; }
+      .cnhs ul li p {
+        width: 1.4rem;
+        height: 0.175rem; }
+        .cnhs ul li p a {
+          display: block;
+          float: left;
+          padding: 0 0.02rem;
+          margin: 0.02rem 0.005rem;
+          color: #fff;
+          height: 0.175rem;
+          line-height: 0.175rem;
+          text-align: center; }
+
+.cnsm {
+  height: 3.45rem; }
+  .cnsm .sm-logo {
+    width: 1.32rem;
+    height: 0.41rem;
+    margin: 0.2rem auto; }
+  .cnsm ul {
+    width: 100%;
+    height: 0.9rem;
+    margin-bottom: 0.12rem; }
+    .cnsm ul li {
+      float: left;
+      width: 1.045rem;
+      height: 0.9rem;
+      margin-left: 0.015rem; }
+
+.cnxx {
+  border: 0;
+  height: 3.5rem; }
+  .cnxx .img-logo {
+    margin: 0.24rem auto;
+    width: 1.365rem;
+    height: 0.43rem; }
+  .cnxx ul {
+    margin: 0 auto;
+    width: 2.95rem;
+    height: 1.91rem; }
+    .cnxx ul li {
+      width: 0.95rem;
+      height: 0.94rem;
+      margin: 0.03rem 0 0 0.03rem;
+      position: relative;
+      float: left; }
+      .cnxx ul li img {
+        width: 0.95rem;
+        height: 0.94rem; }
+      .cnxx ul li p {
+        width: 0.95rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 0.175rem;
+        line-height: 0.175rem;
+        background: rgba(255, 255, 255, 0.6);
+        text-align: center;
+        letter-spacing: -0.015rem;
+        color: #46336f;
+        font-weight: bold; }
+
+.cnpp {
+  border: 0;
+  height: 4.78rem;
+  background: #fff; }
+  .cnpp .tt {
+    width: 1.385rem;
+    height: 0.39rem;
+    margin: 0.3rem auto 0; }
+    .cnpp .tt img {
+      width: 0.715rem;
+      height: 0.24rem;
+      margin: 0 auto; }
+    .cnpp .tt p {
+      width: 1.38rem;
+      height: 0.01rem;
+      margin: 0 auto; }
+      .cnpp .tt p span {
+        width: 0.63rem;
+        height: 0.01rem;
+        background: repeat-x url(images/ipc.png);
+        background-size: cover;
+        display: block;
+        float: left;
+        margin-top: 0.03rem; }
+      .cnpp .tt p i {
+        width: 0.065rem;
+        height: 0.065rem;
+        background: url(images/ipc1.png) no-repeat;
+        background-size: cover;
+        float: left;
+        margin: 0 0.015rem; }
+  .cnpp ul {
+    width: 3.175rem;
+    height: 1.39rem;
+    margin: 0 auto; }
+    .cnpp ul li {
+      height: 1.71rem;
+      width: 1.455rem;
+      float: left;
+      border: solid 2px rgba(227, 225, 234, 0.4);
+      margin-top: 0.19rem;
+      margin-left: 0.02rem; }
+      .cnpp ul li img {
+        width: 1.455rem;
+        height: 0.825rem; }
+      .cnpp ul li h2 {
+        color: #63558a;
+        text-align: center;
+        margin: 0.085rem 0;
+        font-size: 0.12rem;
+        letter-spacing: -0.015rem; }
+      .cnpp ul li .bottom {
+        margin-top: 0.135rem;
+        width: 1.25rem;
+        height: 0.35rem;
+        margin: 0.135rem auto 0; }
+        .cnpp ul li .bottom span {
+          color: #63558a;
+          float: left;
+          display: block;
+          margin: 0.015rem 0 0 0.05rem; }
+        .cnpp ul li .bottom a {
+          text-align: right;
+          display: block;
+          width: 0.525rem;
+          height: 0.135rem;
+          float: left;
+          color: #63558a;
+          margin: 0.035rem 0 0 0; }
+
+footer {
+  height: .5rem;
+  background: #636363;
+  font-size: .12rem;
+  color: #fff;
+  line-height: .12rem;
+  text-align: center; }
+  footer h5 {
+    padding: .06rem 0; }
+  footer p {
+    padding: .03rem 0; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 1.005rem;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.swiper-container {
+  margin: 0.075rem 0; }
+
+/*# sourceMappingURL=sass.css.map */

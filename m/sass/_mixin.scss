@@ -1,0 +1,81 @@
+@mixin sanjiao($www,
+$xiao,
+$chao,
+$me:0) {
+    width: 0;
+    height: 0;
+    @if($www top) {
+        border-left: $xiao solid transparent;
+        border-right: $xiao solid transparent;
+        border-bottom: $me solid $chao;
+    }
+    
+    @if($www botton) {
+        border-left: $xiao solid transparent;
+        border-right: $xiao solid transparent;
+        border-top: $me solid $chao;
+    }
+    @if($www left) {
+        border-top: $xiao solid transparent;
+        border-right: $me solid $chao;
+        border-bottom: $xiao solid transparent;
+    }
+    @if($www right) {
+        border-top: $xiao solid transparent;
+        border-left: $me solid $chao;
+        border-bottom: $xiao solid transparent;
+    }
+    @if($www topleft) {
+        border-top: $xiao solid $chao;
+        border-right: $xiao solid transparent;
+    }
+    @if($www==topright) {
+        border-top: $xiao solid $chao;
+        border-left: $xiao solid transparent;
+    }
+    @if($www==bottomleft) {
+        border-bottom: $xiao solid $chao;
+        border-right: $xiao solid transparent;
+    }
+    @if($www==bottomright) {
+        border-bottom: $xiao solid $chao;
+        border-left: $xiao solid transparent;
+    }
+}
+
+//------------------------
+@mixin clearfloat_byself() {
+    overflow: hidden;
+    zoom: 1;
+}
+
+@mixin clearfloat_floatself($float:left) {
+    float: $float;
+}
+
+@mixin floatfx() {
+    &:after {
+        content: "." display;
+        display: block;
+        height: 0;
+        visibility: hidden;
+        clear: both;
+    }
+}
+
+//----------------------yuanjiao----------------
+@mixin rounded($radius:5px){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+//-------------sj-demo---------------
+
+@function rem($num) {
+    @if $num !=0 {
+        $num: $num/200+ rem;
+    }
+    @return $num;
+}
